@@ -95,8 +95,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': '127.0.0.1',  # 数据库主机
         'PORT': 3306,  # 数据库端口
-        'USER': 'meiduo',  # 数据库用户名
-        'PASSWORD': 'meiduo',  # 数据库用户密码
+        'USER': 'root',  # 数据库用户名
+        'PASSWORD': 'howcute121',  # 数据库用户密码
         'NAME': 'meiduo_mall'  # 数据库名字
     }
 }
@@ -233,11 +233,12 @@ REST_FRAMEWORK = {
 # 配置用户模型
 AUTH_USER_MODEL = 'users.User'
 # CORS添加白名单
+
 CORS_ORIGIN_WHITELIST = (
-    '127.0.0.1:8080',
-    'localhost:8080',
-    'www.meiduo.site:8080',
-    'api.meiduo.site:8000',
+    'http://127.0.0.1:8080',
+    'http://localhost:8080',
+    'http://www.meiduo.site:8080',
+    'http://api.meiduo.site:8000',
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 # 指明token的有效期

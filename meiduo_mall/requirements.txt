@@ -1,0 +1,17 @@
+django
+pymysql
+djangorestframework
+django-cors-headers
+django-ckeditor
+django_crontab
+django-haystack
+itsdangerous
+djangorestframework-jwt
+django_redis
+celery
+drf_haystack
+QQLoginTool
+drf-extensions
+python-alipay-sdk
+elasticsearch
+Pillow
